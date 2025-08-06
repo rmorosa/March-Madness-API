@@ -1,0 +1,6 @@
+# .gitignore
+sample-scoreboard-project-a034983b8ead.json
+*.json
+.env
+.pytest_cache
+venv/

@@ -1,0 +1,17 @@
+gameID,gameState,away_names_short,home_names_short,home_winner,away_winner,bracketRound,home_seed,away_seed
+2640423,final,Creighton,Louisville,False,True,first round,8,9
+2640437,final,High Point,Purdue,True,False,first round,4,13
+2640433,final,Montana,Wisconsin,True,False,first round,3,14
+2640428,final,SIUE,Houston,True,False,first round,1,16
+2640422,final,Alabama St.,Auburn,True,False,first round,1,16
+2640436,final,McNeese,Clemson,False,True,first round,5,12
+2640432,final,VCU,BYU,True,False,first round,6,11
+2640429,final,Georgia,Gonzaga,True,False,first round,8,9
+2640425,final,Wofford,Tennessee,True,False,first round,2,15
+2640434,final,Arkansas,Kansas,False,True,first round,7,10
+2640431,final,Yale,Texas A&M,True,False,first round,4,13
+2640426,final,Drake,Missouri,False,True,first round,6,11
+2640424,final,Utah St.,UCLA,True,False,first round,7,10
+2640435,final,Omaha,St. John's (NY),True,False,first round,2,15
+2640430,final,UC San Diego,Michigan,True,False,first round,5,12
+2640427,final,UNCW,Texas Tech,True,False,first round,3,14

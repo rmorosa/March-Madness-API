@@ -2,8 +2,31 @@
 The backend of March Madness with a twist that handles API requests and responses.
 
 # Prerequisites
-1. Normally I wouldn't version control secret credentials for google sheet api but this is an exception since it's not an important secret and is just an example of the scoreboard project I made for March Madness but you'll still need to ensure you've created a .env file using .env.example
-    - In the future, if you want to be able to run this properly you will need to reach out to Ryan Morosa at ryanmorosa@yahoo.com to get the json credential file to properly hit the Google Sheets API AND ensure you've created a .env file using .env.example (this is for security measures to ensure secrets aren't being stored/version controlled)
+## Setup: Google Sheets API Credentials
+To use this project, you’ll need to create your own Google Cloud Service Account and download a credentials.json file:
+
+1. Go to Google Cloud Console
+
+1. Create or select a project
+
+1. Enable the Google Sheets API
+
+1. Go to IAM & Admin > Service Accounts
+
+1. Click Create Service Account
+
+1. Give it a name (e.g., sheets-api)
+
+1. After creation, click the new service account → Keys > Add Key > Create New Key (JSON)
+
+1. Save the credentials.json file in your project directory
+
+1. Share your target Google Sheet with the service account email (it looks like something@your-project.iam.gserviceaccount.com)
+
+1. Give Editor access since script writes data
+1. Set the environment variable in your .env file following the .env.example
+
+## Other Setup Instructions
 1. Ensure you install all dependencies with the following command `pip install requirements.txt`
 1. Ensure you are opened to [file](https://docs.google.com/spreadsheets/d/1my6p517Ij4BJyLeVLJe9dXy6tIS_Q3oaKY8gjhVXtLI/edit?gid=0#gid=0) and all data from rounds 1 through 6 is cleared for each person and no teams are crossed out
 
